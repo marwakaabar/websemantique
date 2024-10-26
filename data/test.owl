@@ -1,0 +1,2145 @@
+<rdf:RDF
+    xmlns="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:untitled-ontology-8="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdfs:Class rdf:about="http://www.w3.org/2002/07/owl#SymmetricProperty">
+    <rdfs:subClassOf>
+      <owl:Thing rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <owl:equivalentClass>
+          <owl:Thing rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource">
+            <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+            <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+            <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+            <rdf:type>
+              <owl:Thing rdf:about="http://www.w3.org/2002/07/owl#Class">
+                <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+                <rdfs:subClassOf>
+                  <owl:Thing rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+                    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+                    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+                    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+                    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+                    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+                    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+                  </owl:Thing>
+                </rdfs:subClassOf>
+                <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+                <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+                <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+                <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+              </owl:Thing>
+            </rdf:type>
+            <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+          </owl:Thing>
+        </owl:equivalentClass>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+      </owl:Thing>
+    </rdfs:subClassOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:subClassOf>
+      <owl:Thing rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+      </owl:Thing>
+    </rdfs:subClassOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf>
+      <owl:Thing rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2002/07/owl#InverseFunctionalProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2002/07/owl#Restriction">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdfs:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#gMonthDay">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#gMonthDay"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#gMonthDay"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type>
+      <owl:Thing rdf:about="http://www.w3.org/2000/01/rdf-schema#Datatype">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+      </owl:Thing>
+    </rdf:type>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#positiveInteger">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#unsignedByte">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#gYear">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#decimal">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#time">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#nonPositiveInteger">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Projet">
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Projet"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Projet"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#unsignedInt">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Energie_Hydrolique">
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Energie_Hydrolique"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Energie_Hydrolique"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#base64Binary">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#base64Binary"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#base64Binary"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#gYearMonth">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#gYearMonth"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#gYearMonth"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#duration">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#long">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Project">
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Project"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Project"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Property">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#short">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#byte">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Ontology">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#NamedIndividual">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#anyURI">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#double">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#date">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#unsignedShort">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#float">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#negativeInteger">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#negativeInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#negativeInteger"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#gDay">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#gDay"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#gDay"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Inginieur">
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Inginieur"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Inginieur"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#gMonth">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#gMonth"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#gMonth"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#unsignedLong">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#hexBinary">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#hexBinary"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#hexBinary"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#integer">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Gestionnaire_de_Projet">
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Gestionnaire_de_Projet"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Gestionnaire_de_Projet"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#aProduit">
+    <rdfs:domain>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Organisation">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Organisation"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Organisation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#aProduit"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#aProduit"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:range>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#estConçuPar">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:domain>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#estConçuPar"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Inginieur">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf>
+          <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne">
+            <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+            <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+            <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+            <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+          </owl:Thing>
+        </rdfs:subClassOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Inginieur"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Inginieur"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#estConçuPar"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#disjointWith">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#ecrit">
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#ecrit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#ecrit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:ObjectProperty>
+  <rdf:Property rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#TypeEquipement">
+    <rdfs:range>
+      <owl:Thing rdf:about="http://www.w3.org/2001/XMLSchema#string">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+      </owl:Thing>
+    </rdfs:range>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#TypeEquipement"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#TypeEquipement"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Fournisseur_equipement">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Fournisseur_equipement"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Fournisseur_equipement"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:domain>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type>
+      <owl:Thing rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdf:type>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf">
+    <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#potentiel_nergétique">
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#potentiel_nergétique"/>
+    <rdfs:range>
+      <owl:Thing rdf:about="http://www.w3.org/2001/XMLSchema#int">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+      </owl:Thing>
+    </rdfs:range>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Source_énergie">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Source_énergie"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Source_énergie"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:domain>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#potentiel_nergétique"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#recommandations">
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#recommandations"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#recommandations"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#EtudeImpact_environnemental">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#EtudeImpact_environnemental"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#EtudeImpact_environnemental"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:domain>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2000/01/rdf-schema#domain">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#nom">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Organisation"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#nom"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#nom"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#expérience">
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#expérience"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Gestionnaire_de_projet">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Gestionnaire_de_projet"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Gestionnaire_de_projet"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:domain>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#expérience"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#statut">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#statut"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#statut"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#législation_applicable">
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Orgnasime_gouvernemental">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Organisation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Orgnasime_gouvernemental"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Orgnasime_gouvernemental"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Organisation"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#législation_applicable"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#législation_applicable"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#disponibilite">
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#disponibilite"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Fournisseur_equipement"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#disponibilite"/>
+    <rdfs:range>
+      <owl:Thing rdf:about="http://www.w3.org/2001/XMLSchema#boolean">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+      </owl:Thing>
+    </rdfs:range>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#situéÀ">
+    <rdfs:range>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Emplacement">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Emplacement"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Emplacement"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:range>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#situéÀ"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Equipement">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Equipement"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Equipement"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#situéÀ"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#secteur_dactivité">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#secteur_dactivité"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Organisation"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Entreprise">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Organisation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Entreprise"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Entreprise"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#secteur_dactivité"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#produitRapportSuivi">
+    <rdfs:range>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#RapportSuivi">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#RapportSuivi"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#RapportSuivi"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Inginieur"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#produitRapportSuivi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#produitRapportSuivi"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#estGerePar">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Gestionnaire_de_projet"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#estGerePar"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#estGerePar"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest">
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type>
+      <owl:Thing rdf:about="http://www.w3.org/2002/07/owl#FunctionalProperty">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdf:type>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"/>
+    <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2002/07/owl#onProperty">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#onProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#onProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#utiliseSourceEnergie">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Source_énergie"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#utiliseSourceEnergie"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#utiliseSourceEnergie"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#dateDebut">
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#dateDebut"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range>
+      <owl:Thing rdf:about="http://www.w3.org/2001/XMLSchema#dateTime">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+      </owl:Thing>
+    </rdfs:range>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#dateDebut"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2002/07/owl#equivalentClass">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Property>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#capacite">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Equipement"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#capacite"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#capacite"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#pays">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+    <rdfs:domain>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Reglementation">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Reglementation"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Reglementation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#pays"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#pays"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#conditions_utilisation">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#conditions_utilisation"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#conditions_utilisation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Source_énergie"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#spécialité">
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#spécialité"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#spécialité"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Inginieur"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Type">
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <rdfs:domain>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Investisseur">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Investisseur"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Investisseur"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:domain>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Type"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Type"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Equipement"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#adresse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#adresse"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Emplacement"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#adresse"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#rapport">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#rapport"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#rapport"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#RapportSuivi"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#qualifications">
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#qualifications"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#qualifications"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Inginieur"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <untitled-ontology-8:Equipement rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#equipement1">
+    <untitled-ontology-8:capacite rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+    >20</untitled-ontology-8:capacite>
+    <untitled-ontology-8:Type>turbine</untitled-ontology-8:Type>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Investisseur"/>
+  </untitled-ontology-8:Equipement>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#ingénieur_energitique">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Inginieur"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <untitled-ontology-8:statut>ingénieur hydrolique</untitled-ontology-8:statut>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <untitled-ontology-8:qualifications>cecurite informatique</untitled-ontology-8:qualifications>
+    <untitled-ontology-8:nom>adam</untitled-ontology-8:nom>
+    <rdf:type rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Organisation"/>
+  </owl:NamedIndividual>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/projet_hydrolique">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <dateFin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2025-02-22T00:00:00</dateFin>
+    <dateDebut rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-01-01T00:00:00</dateDebut>
+    <nom>Projet energie hydrolique</nom>
+    <utiliseSourceEnergie>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/energie_hydrolique">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <conditions_utilisation>Conditions pour l'énergie solaire</conditions_utilisation>
+        <potentiel_nergétique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >7000</potentiel_nergétique>
+        <rdf:type rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Energie_Hydrolique"/>
+      </owl:Thing>
+    </utiliseSourceEnergie>
+    <dateFin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-02-23T00:00:00</dateFin>
+    <nom>Projet 2</nom>
+    <rdf:type rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Projet"/>
+  </owl:Thing>
+  <untitled-ontology-8:Source_énergie rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#SOURCE1">
+    <untitled-ontology-8:potentiel_nergétique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >1000</untitled-ontology-8:potentiel_nergétique>
+    <untitled-ontology-8:conditions_utilisation>condition1</untitled-ontology-8:conditions_utilisation>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </untitled-ontology-8:Source_énergie>
+  <untitled-ontology-8:RapportSuivi rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#document1">
+    <untitled-ontology-8:auteur>chef projet1</untitled-ontology-8:auteur>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </untitled-ontology-8:RapportSuivi>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#document_1">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </owl:Thing>
+  <untitled-ontology-8:Emplacement rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#emplacement1">
+    <untitled-ontology-8:coordonnées>tunis</untitled-ontology-8:coordonnées>
+    <untitled-ontology-8:conditions_environnementales>condition1</untitled-ontology-8:conditions_environnementales>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </untitled-ontology-8:Emplacement>
+  <Projet rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/projet_biomasse">
+    <nom>Biomasse 1</nom>
+    <estGerePar>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/gestionnaire_num1">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <statut>Actif</statut>
+        <contact>gestionnaire@example.com</contact>
+        <nom>Jean Dupont</nom>
+        <expérience>5 ans</expérience>
+        <rdf:type rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Gestionnaire_de_Projet"/>
+      </owl:Thing>
+    </estGerePar>
+    <nom>test projet</nom>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <estConçuPar>
+      <Inginieur rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/ingenieur_num2">
+        <qualifications>PhD en Ingénierie</qualifications>
+        <spécialité>Biomasse</spécialité>
+        <contact>marwa@example.com</contact>
+        <nom>marwa</nom>
+        <statut>Actif</statut>
+      </Inginieur>
+    </estConçuPar>
+    <utiliseSourceEnergie rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/energie_solaire"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <utiliseSourceEnergie rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Biomasse"/>
+    <estConçuPar>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/ingenieur_num1">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <statut>Actif</statut>
+        <contact>ingenieur@example.com</contact>
+        <spécialité>Biomasse</spécialité>
+        <qualifications>PhD en Ingénierie</qualifications>
+        <rdf:type rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Inginieur"/>
+      </owl:Thing>
+    </estConçuPar>
+    <estGerePar>
+      <Gestionnaire_de_Projet rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/gestionnaire_num2">
+        <expérience>5 ans</expérience>
+        <nom>Oumaima</nom>
+        <contact>oumaima@example.com</contact>
+        <statut>Actif</statut>
+      </Gestionnaire_de_Projet>
+    </estGerePar>
+    <nom>nouveau Projet Biomasse</nom>
+  </Projet>
+  <owl:Thing rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Project_projet_solaire_3">
+    <DateFin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2025-12-31T10:00:00</DateFin>
+    <dateDebut rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2025-01-01T10:00:00</dateDebut>
+    <capacite>200</capacite>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <nom>projet solaire 3</nom>
+    <rdf:type rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Project"/>
+  </owl:Thing>
+  <untitled-ontology-8:Organisation rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#HiveDev">
+    <untitled-ontology-8:secteur_dactivité>secteur hydrolique</untitled-ontology-8:secteur_dactivité>
+    <untitled-ontology-8:nom>HiveDev</untitled-ontology-8:nom>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Entreprise"/>
+  </untitled-ontology-8:Organisation>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Project_projet_solaire_1">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <DateFin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-12-31T10:00:00</DateFin>
+    <dateDebut rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-10-25T10:00:00</dateDebut>
+    <capacite>100</capacite>
+    <nom>projet solaire 1</nom>
+    <rdf:type rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/Project"/>
+  </owl:Thing>
+  <untitled-ontology-8:Projet rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#peojet_hydrolique">
+    <untitled-ontology-8:dateDebut rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-10-10T00:00:00</untitled-ontology-8:dateDebut>
+    <untitled-ontology-8:DateFin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2025-10-10T00:00:00</untitled-ontology-8:DateFin>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </untitled-ontology-8:Projet>
+  <untitled-ontology-8:Financement rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#financement1">
+    <untitled-ontology-8:SourceFinancement>source 1</untitled-ontology-8:SourceFinancement>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </untitled-ontology-8:Financement>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#maintenir">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Equipement"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#maintenancier">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#maintenancier"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#maintenancier"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:domain>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#maintenir"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#maintenir"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <rdfs:Resource rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#montant_total">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#montant_total"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#montant_total"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Financement">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Financement"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Financement"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:domain>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <owl:Thing rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/spécialité">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/spécialité"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/spécialité"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.w3.org/2002/07/owl#incompatibleWith">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#incompatibleWith"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#incompatibleWith"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.w3.org/2002/07/owl#differentFrom">
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#differentFrom"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#differentFrom"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <rdfs:Resource rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#score_impact">
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#score_impact"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#EtudeImpact_environnemental"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#score_impact"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdfs:Resource>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#suitBudget">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#suitBudget"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Financement"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#suitBudget"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/conditions_utilisation">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/conditions_utilisation"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/conditions_utilisation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#energie_Eolienne">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Source_énergie"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#energie_Eolienne"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#energie_Eolienne"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.w3.org/2002/07/owl#oneOf">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#oneOf"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#oneOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/contact">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/contact"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/contact"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    <rdfs:subClassOf>
+      <owl:Thing rdf:about="http://www.w3.org/2000/01/rdf-schema#Container">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+      </owl:Thing>
+    </rdfs:subClassOf>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/estGerePar">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/estGerePar"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/estGerePar"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <rdfs:Resource rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#aImpactEnvironnemental">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#aImpactEnvironnemental"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#EtudeImpact_environnemental"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#aImpactEnvironnemental"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2002/07/owl#imports">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#imports"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#imports"/>
+    <rdf:type>
+      <owl:Thing rdf:about="http://www.w3.org/2002/07/owl#OntologyProperty">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#OntologyProperty"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#OntologyProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdf:type>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdfs:Resource>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/nom">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/nom"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/nom"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/utiliseSourceEnergie">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/utiliseSourceEnergie"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/utiliseSourceEnergie"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Budget">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Budget"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Budget"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Biomasse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Source_énergie"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Biomasse"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Biomasse"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#coordonnées">
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#coordonnées"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#coordonnées"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Emplacement"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/dateDebut">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/dateDebut"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/dateDebut"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/qualifications">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/qualifications"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/qualifications"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.w3.org/2000/01/rdf-schema#range">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Thing>
+  <rdfs:Resource rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#SourceFinancement">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Financement"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#SourceFinancement"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#SourceFinancement"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#auteur">
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#auteur"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#auteur"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#RapportSuivi"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdfs:Resource>
+  <owl:Thing rdf:about="http://www.w3.org/2002/07/owl#equivalentProperty">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/estConçuPar">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/estConçuPar"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/estConçuPar"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <rdfs:Resource rdf:about="http://www.w3.org/2002/07/owl#Nothing">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Emplacement"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Investisseur"/>
+    <rdfs:subClassOf>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Panneau_solaire">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Equipement"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Panneau_solaire"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Panneau_solaire"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+      </owl:Thing>
+    </rdfs:subClassOf>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#EtudeImpact_environnemental"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Gestionnaire_de_projet"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Entreprise"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#RapportSuivi"/>
+    <rdfs:subClassOf>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#energie_hydrolique">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Source_énergie"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#energie_hydrolique"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#energie_hydrolique"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+      </owl:Thing>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    <rdfs:subClassOf>
+      <owl:Thing rdf:about="http://www.w3.org/2002/07/owl#TransitiveProperty">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Equipement"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <rdfs:subClassOf>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Turbine_hydraulique">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Equipement"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Turbine_hydraulique"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Turbine_hydraulique"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+      </owl:Thing>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#energie_solaire">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Source_énergie"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#energie_solaire"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#energie_solaire"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+      </owl:Thing>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#maintenancier"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#energie_Eolienne"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Orgnasime_gouvernemental"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Source_énergie"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Biomasse"/>
+    <rdfs:subClassOf>
+      <owl:Thing rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#OntologyProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Reglementation"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Organisation"/>
+    <rdfs:subClassOf>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Geothermie">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Source_énergie"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Geothermie"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Geothermie"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+      </owl:Thing>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Inginieur"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Budget"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Financement"/>
+    <rdfs:subClassOf>
+      <owl:Thing rdf:about="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Thing>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf>
+      <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Eolienne">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Equipement"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Eolienne"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Eolienne"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+      </owl:Thing>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Fournisseur_equipement"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Montant_investi">
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Montant_investi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Montant_investi"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Investisseur"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2002/07/owl#sameAs">
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+  </rdfs:Resource>
+  <owl:Thing rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <rdfs:Resource rdf:about="http://www.w3.org/2002/07/owl#priorVersion">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#priorVersion"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#priorVersion"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#emploie">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Organisation"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#emploie"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#emploie"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/potentiel_nergétique">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/potentiel_nergétique"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/potentiel_nergétique"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#contact">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#contact"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#contact"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#aLieuDans">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Emplacement"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#aLieuDans"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#aLieuDans"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/expérience">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/expérience"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/expérience"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#first">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#first"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#first"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:Thing>
+  <rdfs:Resource rdf:about="http://www.w3.org/2002/07/owl#backwardCompatibleWith">
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#backwardCompatibleWith"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#backwardCompatibleWith"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#fournit">
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#fournit"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#fournit"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Fournisseur_equipement"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Equipement"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Resource>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/statut">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/statut"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/statut"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#date">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#RapportSuivi"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#date"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#date"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#object">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#object"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#object"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/dateFin">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/dateFin"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/dateFin"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#genere">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#genere"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Source_énergie"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Equipement"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#genere"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/capacite">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/capacite"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/capacite"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <rdfs:Resource rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#affecteTâcheÀ">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Inginieur"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#maintenancier"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#affecteTâcheÀ"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#affecteTâcheÀ"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Resource>
+  <owl:Thing rdf:about="http://www.w3.org/2002/07/owl#intersectionOf">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#intersectionOf"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#intersectionOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#respecteReglementation">
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#respecteReglementation"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Reglementation"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#respecteReglementation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#DateFin">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#DateFin"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#DateFin"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/DateFin">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/DateFin"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8/DateFin"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <rdfs:Resource rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#estFinancéPar">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#estFinancéPar"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Personne"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#estFinancéPar"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Projet"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Investisseur"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Resource>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#conditions_environnementales">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#conditions_environnementales"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#conditions_environnementales"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Emplacement"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </owl:Thing>
+  <owl:Thing rdf:about="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#exigences">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#exigences"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Reglementation"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#Document"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saidg/ontologies/2024/8/untitled-ontology-8#exigences"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:Thing>
+</rdf:RDF>

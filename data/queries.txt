@@ -1,0 +1,23 @@
+PREFIX : <http://www.semanticweb.org/msi/ontologies/2024/9/untitled-ontology-8#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# Start a SPARQL Update query
+INSERT {
+    # Adding a new project
+    :nouveau_projet a :Projet ;
+        :nom "Nouveau Projet" ;
+        :DateFin "2025-12-31T00:00:00"^^xsd:dateTime ;
+        :dateDebut "2024-12-31T00:00:00"^^xsd:dateTime ;
+        :capacite:20 .
+    # Adding a new energy source
+    :nouvelle_source a :Source_énergie ;
+        :conditions_utilisation "Conditions de l'énergie" ;
+        :potentiel_nergétique 5000 .
+
+    # Associating the project with the energy source
+    :nouveau_projet :utiliseSourceEnergie :nouvelle_source .
+}
+WHERE { }  # Required WHERE clause for an update query

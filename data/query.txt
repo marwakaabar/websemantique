@@ -1,0 +1,12 @@
+PREFIX ns: <http://www.semanticweb.org/msi/ontologies/2024/9/untitled-ontology-8#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?project ?name ?capacity ?startDate ?endDate WHERE {
+  ?project rdf:type ns:Projet ;
+           ns:nom ?name ;
+           ns:capacite ?capacity ;
+           ns:dateDebut ?startDate ;
+           ns:dateFin ?endDate .
+
+  FILTER(?name = "peojet_hydrolique")  # Filtrer par nom de projet
+}
